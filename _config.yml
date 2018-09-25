@@ -79,8 +79,9 @@ theme: material-x
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git   
-  repo: https://github.com/jiansong0720/jiansong0720.github.io  #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: master #published
+  repo:
+    github: https://github.com/jiansong0720/jiansong0720.github.io,master
+    coding: git@git.coding.net:jiansong0720/jiansong0720.git,master 
 
  
 # >> 主题配置 ---------------------------------------------------------------------
@@ -104,7 +105,7 @@ widgets:
   # 博主信息，显示个人头像、格言、社交信息等
   author:
     enable: true
-    avatar: http://i4.bvimg.com/661090/047b44c17846bce3.jpg # 头像，如果config中已经设置avatar了，这里可以不用写
+    avatar: http://pflejmaha.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180925115139.png # 头像，如果config中已经设置avatar了，这里可以不用写
     title: Jian Song # 博客名、头衔等等，居中显示
     motto: 努力一点，再努力一点。 # 格言座右铭等等
     social: true # 是否显示社交信息（内容同页脚的社交信息）
