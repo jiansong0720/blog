@@ -7,7 +7,7 @@ tags:
 - 包管理
 ---
 
-## 增加服务文件
+### 增加服务文件
 
 进入服务文件目录：
 
@@ -23,7 +23,7 @@ vim my-apps.service
 
 <!--more--> 
 
-## 编辑内容
+### 编辑内容
 
 ```bash
 [Unit]
@@ -40,7 +40,7 @@ WantedBy=multi-user.target
 
 其它项目使用只要修改 `Description` 和 `ExecStart` 即可。
 
-## 服务操作
+### 服务操作
 
 #### 启动服务
 
